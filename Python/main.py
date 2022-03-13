@@ -1,4 +1,5 @@
 import sys
+from random import random
 
 
 def init_input():
@@ -15,13 +16,9 @@ A = []
 P('\n', join(map(str, A)))
 '''
 
+home = [[1,4],[5,4],[3,1],[2,6],[3,3]]
 
-def main():
-    from String.Q8958 import solution
-
-    init_input()
-    solution()
+for h_pos in home:
+    print(h_pos[0], " ", h_pos[1])
 
 
-if __name__ == "__main__":
-    main()
