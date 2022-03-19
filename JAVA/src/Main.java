@@ -14,13 +14,14 @@ public class Main {
 
 
     public static void main(String[] args){
-        Q9012 sol = null;
+        /*Q9012 sol = null;
         try {
             sol = new Q9012();
             sol.Solution();
         } finally{
             sol = null;
-        }
+        }*/
+
 
 
 
