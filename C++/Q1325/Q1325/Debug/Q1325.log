@@ -1,0 +1,4 @@
+﻿  Q1325.cpp
+D:\mystudy\C++\BackJoon\Q1325\Q1325\Q1325.cpp(25): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+D:\mystudy\C++\BackJoon\Q1325\Q1325\Q1325.cpp(50): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+  Q1325.vcxproj -> D:\mystudy\C++\BackJoon\Q1325\Debug\Q1325.exe

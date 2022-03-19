@@ -1,0 +1,287 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\Search%28탐색%29">
+      <UniqueIdentifier>{48f886bb-6b84-4345-b528-a826e483250f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Greedy%28그리디%29">
+      <UniqueIdentifier>{006b734d-3fb1-463c-980e-7db0ace6fc7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Graph%28그래프%29">
+      <UniqueIdentifier>{093539ab-e614-4f62-9b6f-f5adf667d92f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Dynamic Programming%28동적계획법%29">
+      <UniqueIdentifier>{1dd2c43c-e2ef-44d6-b237-6193e3c3aa02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Divide and Conquer%28분할정복%29">
+      <UniqueIdentifier>{01c58b04-d2f6-4e88-adce-870569a89025}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Greedy%28그리디%29\input">
+      <UniqueIdentifier>{ac4d0af0-7339-4045-abb6-44530d8a8615}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Search%28탐색%29\input">
+      <UniqueIdentifier>{b9231eba-4dcf-4417-a267-5886ec570483}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Dynamic Programming%28동적계획법%29\input">
+      <UniqueIdentifier>{1d6e86c5-28da-4983-a463-5b0807b66073}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\selftest1">
+      <UniqueIdentifier>{aef8bd2d-eb20-40a5-a52a-2e2f716af71b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\selftest2">
+      <UniqueIdentifier>{2fd42692-704b-4bf9-8102-296fef64fb61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\selftest2\input">
+      <UniqueIdentifier>{61f9dd3e-9bfd-4374-878f-3e636766edd7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\selftest1\input">
+      <UniqueIdentifier>{d3a71d5f-d4b7-48ad-ab85-cccdfc93c8b2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="문제정리.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Greedy(그리디)\백준 Q1946.cpp">
+      <Filter>소스 파일\Greedy%28그리디%29</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Greedy(그리디)\백준 Q2810.cpp">
+      <Filter>소스 파일\Greedy%28그리디%29</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Greedy(그리디)\백준 Q2812.cpp">
+      <Filter>소스 파일\Greedy%28그리디%29</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Greedy(그리디)\백준 Q2839.cpp">
+      <Filter>소스 파일\Greedy%28그리디%29</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Greedy(그리디)\백준 Q3109.cpp">
+      <Filter>소스 파일\Greedy%28그리디%29</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Greedy(그리디)\백준 Q9576.cpp">
+      <Filter>소스 파일\Greedy%28그리디%29</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Greedy(그리디)\백준 Q10775.cpp">
+      <Filter>소스 파일\Greedy%28그리디%29</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Greedy(그리디)\백준 Q11000.cpp">
+      <Filter>소스 파일\Greedy%28그리디%29</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Greedy(그리디)\백준 Q11047.cpp">
+      <Filter>소스 파일\Greedy%28그리디%29</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Greedy(그리디)\백준 Q11399.cpp">
+      <Filter>소스 파일\Greedy%28그리디%29</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Greedy(그리디)\백준 Q1041.cpp">
+      <Filter>소스 파일\Greedy%28그리디%29</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Greedy(그리디)\백준 Q1202.cpp">
+      <Filter>소스 파일\Greedy%28그리디%29</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Greedy(그리디)\백준 Q1700.cpp">
+      <Filter>소스 파일\Greedy%28그리디%29</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Greedy(그리디)\백준 Q1715.cpp">
+      <Filter>소스 파일\Greedy%28그리디%29</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Greedy(그리디)\백준 Q1744.cpp">
+      <Filter>소스 파일\Greedy%28그리디%29</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Dynamic Programming(동적계획법)\백준 Q11727.cpp">
+      <Filter>소스 파일\Dynamic Programming%28동적계획법%29</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Dynamic Programming(동적계획법)\백준 Q1309.cpp">
+      <Filter>소스 파일\Dynamic Programming%28동적계획법%29</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Dynamic Programming(동적계획법)\백준 Q1495.cpp">
+      <Filter>소스 파일\Dynamic Programming%28동적계획법%29</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Dynamic Programming(동적계획법)\백준 Q5557.cpp">
+      <Filter>소스 파일\Dynamic Programming%28동적계획법%29</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Dynamic Programming(동적계획법)\백준 Q9465.cpp">
+      <Filter>소스 파일\Dynamic Programming%28동적계획법%29</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Dynamic Programming(동적계획법)\백준 Q10164.cpp">
+      <Filter>소스 파일\Dynamic Programming%28동적계획법%29</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Dynamic Programming(동적계획법)\백준 Q11048.cpp">
+      <Filter>소스 파일\Dynamic Programming%28동적계획법%29</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Dynamic Programming(동적계획법)\백준 Q11055.cpp">
+      <Filter>소스 파일\Dynamic Programming%28동적계획법%29</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Dynamic Programming(동적계획법)\백준 Q11057.cpp">
+      <Filter>소스 파일\Dynamic Programming%28동적계획법%29</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Dynamic Programming(동적계획법)\백준 Q11060.cpp">
+      <Filter>소스 파일\Dynamic Programming%28동적계획법%29</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Search(탐색)\백준 Q17472.cpp">
+      <Filter>소스 파일\Search%28탐색%29</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Search(탐색)\백준 Q1197.cpp">
+      <Filter>소스 파일\Search%28탐색%29</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Search(탐색)\백준 Q2206.cpp">
+      <Filter>소스 파일\Search%28탐색%29</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Search(탐색)\백준 Q2573.cpp">
+      <Filter>소스 파일\Search%28탐색%29</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Search(탐색)\백준 Q2583.cpp">
+      <Filter>소스 파일\Search%28탐색%29</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Search(탐색)\백준 Q13023.cpp">
+      <Filter>소스 파일\Search%28탐색%29</Filter>
+    </ClCompile>
+    <ClCompile Include="io_init.cpp">
+      <Filter>소스 파일\Greedy%28그리디%29</Filter>
+    </ClCompile>
+    <ClCompile Include="selftest1\test1.cpp">
+      <Filter>소스 파일\selftest1</Filter>
+    </ClCompile>
+    <ClCompile Include="selftest2\test2.cpp">
+      <Filter>소스 파일\selftest2</Filter>
+    </ClCompile>
+    <ClCompile Include="init.cpp">
+      <Filter>소스 파일\selftest1</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\Greedy(그리디)\input\Q1041.txt">
+      <Filter>소스 파일\Greedy%28그리디%29\input</Filter>
+    </Text>
+    <Text Include="..\Greedy(그리디)\input\Q1202.txt">
+      <Filter>소스 파일\Greedy%28그리디%29\input</Filter>
+    </Text>
+    <Text Include="..\Greedy(그리디)\input\Q1700.txt">
+      <Filter>소스 파일\Greedy%28그리디%29\input</Filter>
+    </Text>
+    <Text Include="..\Greedy(그리디)\input\Q1715.txt">
+      <Filter>소스 파일\Greedy%28그리디%29\input</Filter>
+    </Text>
+    <Text Include="..\Greedy(그리디)\input\Q1744.txt">
+      <Filter>소스 파일\Greedy%28그리디%29\input</Filter>
+    </Text>
+    <Text Include="..\Greedy(그리디)\input\Q1946.txt">
+      <Filter>소스 파일\Greedy%28그리디%29\input</Filter>
+    </Text>
+    <Text Include="..\Greedy(그리디)\input\Q2810.txt">
+      <Filter>소스 파일\Greedy%28그리디%29\input</Filter>
+    </Text>
+    <Text Include="..\Greedy(그리디)\input\Q2812.txt">
+      <Filter>소스 파일\Greedy%28그리디%29\input</Filter>
+    </Text>
+    <Text Include="..\Greedy(그리디)\input\Q2839.txt">
+      <Filter>소스 파일\Greedy%28그리디%29\input</Filter>
+    </Text>
+    <Text Include="..\Greedy(그리디)\input\Q3109.txt">
+      <Filter>소스 파일\Greedy%28그리디%29\input</Filter>
+    </Text>
+    <Text Include="..\Greedy(그리디)\input\Q9576.txt">
+      <Filter>소스 파일\Greedy%28그리디%29\input</Filter>
+    </Text>
+    <Text Include="..\Greedy(그리디)\input\Q10775.txt">
+      <Filter>소스 파일\Greedy%28그리디%29\input</Filter>
+    </Text>
+    <Text Include="..\Greedy(그리디)\input\Q11000.txt">
+      <Filter>소스 파일\Greedy%28그리디%29\input</Filter>
+    </Text>
+    <Text Include="..\Greedy(그리디)\input\Q11047.txt">
+      <Filter>소스 파일\Greedy%28그리디%29\input</Filter>
+    </Text>
+    <Text Include="..\Greedy(그리디)\input\Q11399.txt">
+      <Filter>소스 파일\Greedy%28그리디%29\input</Filter>
+    </Text>
+    <Text Include="..\Search(탐색)\input\Q1197.txt">
+      <Filter>소스 파일\Search%28탐색%29\input</Filter>
+    </Text>
+    <Text Include="..\Search(탐색)\input\Q2206.txt">
+      <Filter>소스 파일\Search%28탐색%29\input</Filter>
+    </Text>
+    <Text Include="..\Search(탐색)\input\Q2573.txt">
+      <Filter>소스 파일\Search%28탐색%29\input</Filter>
+    </Text>
+    <Text Include="..\Search(탐색)\input\Q2583.txt">
+      <Filter>소스 파일\Search%28탐색%29\input</Filter>
+    </Text>
+    <Text Include="..\Search(탐색)\input\Q13023.txt">
+      <Filter>소스 파일\Search%28탐색%29\input</Filter>
+    </Text>
+    <Text Include="..\Search(탐색)\input\Q17472.txt">
+      <Filter>소스 파일\Search%28탐색%29\input</Filter>
+    </Text>
+    <Text Include="..\Dynamic Programming(동적계획법)\input\Q1309.txt">
+      <Filter>소스 파일\Dynamic Programming%28동적계획법%29\input</Filter>
+    </Text>
+    <Text Include="..\Dynamic Programming(동적계획법)\input\Q1495.txt">
+      <Filter>소스 파일\Dynamic Programming%28동적계획법%29\input</Filter>
+    </Text>
+    <Text Include="..\Dynamic Programming(동적계획법)\input\Q5557.txt">
+      <Filter>소스 파일\Dynamic Programming%28동적계획법%29\input</Filter>
+    </Text>
+    <Text Include="..\Dynamic Programming(동적계획법)\input\Q9465.txt">
+      <Filter>소스 파일\Dynamic Programming%28동적계획법%29\input</Filter>
+    </Text>
+    <Text Include="..\Dynamic Programming(동적계획법)\input\Q10164.txt">
+      <Filter>소스 파일\Dynamic Programming%28동적계획법%29\input</Filter>
+    </Text>
+    <Text Include="..\Dynamic Programming(동적계획법)\input\Q11048.txt">
+      <Filter>소스 파일\Dynamic Programming%28동적계획법%29\input</Filter>
+    </Text>
+    <Text Include="..\Dynamic Programming(동적계획법)\input\Q11055.txt">
+      <Filter>소스 파일\Dynamic Programming%28동적계획법%29\input</Filter>
+    </Text>
+    <Text Include="..\Dynamic Programming(동적계획법)\input\Q11057.txt">
+      <Filter>소스 파일\Dynamic Programming%28동적계획법%29\input</Filter>
+    </Text>
+    <Text Include="..\Dynamic Programming(동적계획법)\input\Q11060.txt">
+      <Filter>소스 파일\Dynamic Programming%28동적계획법%29\input</Filter>
+    </Text>
+    <Text Include="..\Dynamic Programming(동적계획법)\input\Q11727.txt">
+      <Filter>소스 파일\Dynamic Programming%28동적계획법%29\input</Filter>
+    </Text>
+    <Text Include="selftest1\input\Qtest1.txt">
+      <Filter>소스 파일\selftest1\input</Filter>
+    </Text>
+    <Text Include="selftest2\input\Qtest2.txt">
+      <Filter>소스 파일\selftest2\input</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="header\Divide and Conquer(분할정복).h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="header\Dynamic Programming(동적계획법).h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="header\Graph(그래프).h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="header\Greedy(그리디).h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="header\Search(탐색).h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="header\selftest2.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="header\selftest1.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

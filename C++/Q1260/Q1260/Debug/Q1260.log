@@ -1,0 +1,4 @@
+﻿  소스.cpp
+D:\mystudy\C++\BackJoon\Q1260\Q1260\소스.cpp(17,20): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+D:\mystudy\C++\BackJoon\Q1260\Q1260\소스.cpp(36,21): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+  Q1260.vcxproj -> D:\mystudy\C++\BackJoon\Q1260\Debug\Q1260.exe

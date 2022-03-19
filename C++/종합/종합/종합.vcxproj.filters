@@ -1,0 +1,234 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="input">
+      <UniqueIdentifier>{cc999a69-b8e0-4c9c-942f-3b830a238f99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\탐색">
+      <UniqueIdentifier>{0396f76d-7136-4ac5-b651-ae81da3876aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="문제번호정리">
+      <UniqueIdentifier>{c3f1d2ae-a82a-4c42-a145-84d5aa71a767}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\그리디">
+      <UniqueIdentifier>{9d667223-3c8b-462c-a5ea-4df06bce291b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\동적계획법">
+      <UniqueIdentifier>{1bb161ec-4c7e-4245-9ffb-b3e446ba5686}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\그래프">
+      <UniqueIdentifier>{1f78b83c-4313-41c3-853e-f5474724f420}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\분할정복">
+      <UniqueIdentifier>{48c3dc10-e7d2-4434-9d1c-1611297e5bda}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\기본 알고리즘 종류">
+      <UniqueIdentifier>{36247cbd-5a2f-4fff-896f-e90270fa58da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\자료구조">
+      <UniqueIdentifier>{ac03ec94-8ce6-4397-a7fa-002da10ff9d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\자료구조">
+      <UniqueIdentifier>{1e2e9a1e-a554-4d47-ba67-9da5628d1732}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="종합.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="백준 Q17472.cpp">
+      <Filter>소스 파일\탐색</Filter>
+    </ClCompile>
+    <ClCompile Include="백준 Q1197.cpp">
+      <Filter>소스 파일\탐색</Filter>
+    </ClCompile>
+    <ClCompile Include="백준 Q2206.cpp">
+      <Filter>소스 파일\탐색</Filter>
+    </ClCompile>
+    <ClCompile Include="백준 Q2583.cpp">
+      <Filter>소스 파일\탐색</Filter>
+    </ClCompile>
+    <ClCompile Include="백준 Q13023.cpp">
+      <Filter>소스 파일\탐색</Filter>
+    </ClCompile>
+    <ClCompile Include="백준 Q1744.cpp">
+      <Filter>소스 파일\그리디</Filter>
+    </ClCompile>
+    <ClCompile Include="백준 Q1946.cpp">
+      <Filter>소스 파일\그리디</Filter>
+    </ClCompile>
+    <ClCompile Include="백준 Q2810.cpp">
+      <Filter>소스 파일\그리디</Filter>
+    </ClCompile>
+    <ClCompile Include="백준 Q2812.cpp">
+      <Filter>소스 파일\그리디</Filter>
+    </ClCompile>
+    <ClCompile Include="백준 Q2839.cpp">
+      <Filter>소스 파일\그리디</Filter>
+    </ClCompile>
+    <ClCompile Include="백준 Q3109.cpp">
+      <Filter>소스 파일\그리디</Filter>
+    </ClCompile>
+    <ClCompile Include="백준 Q9576.cpp">
+      <Filter>소스 파일\그리디</Filter>
+    </ClCompile>
+    <ClCompile Include="백준 Q10775.cpp">
+      <Filter>소스 파일\그리디</Filter>
+    </ClCompile>
+    <ClCompile Include="백준 Q11000.cpp">
+      <Filter>소스 파일\그리디</Filter>
+    </ClCompile>
+    <ClCompile Include="백준 Q11047.cpp">
+      <Filter>소스 파일\그리디</Filter>
+    </ClCompile>
+    <ClCompile Include="백준 Q11399.cpp">
+      <Filter>소스 파일\그리디</Filter>
+    </ClCompile>
+    <ClCompile Include="백준 Q1041.cpp">
+      <Filter>소스 파일\그리디</Filter>
+    </ClCompile>
+    <ClCompile Include="백준 Q1202.cpp">
+      <Filter>소스 파일\그리디</Filter>
+    </ClCompile>
+    <ClCompile Include="백준 Q1700.cpp">
+      <Filter>소스 파일\그리디</Filter>
+    </ClCompile>
+    <ClCompile Include="백준 Q1715.cpp">
+      <Filter>소스 파일\그리디</Filter>
+    </ClCompile>
+    <ClCompile Include="백준 Q11057.cpp">
+      <Filter>소스 파일\동적계획법</Filter>
+    </ClCompile>
+    <ClCompile Include="백준 Q11060.cpp">
+      <Filter>소스 파일\동적계획법</Filter>
+    </ClCompile>
+    <ClCompile Include="백준 Q11727.cpp">
+      <Filter>소스 파일\동적계획법</Filter>
+    </ClCompile>
+    <ClCompile Include="백준 Q1309.cpp">
+      <Filter>소스 파일\동적계획법</Filter>
+    </ClCompile>
+    <ClCompile Include="백준 Q1495.cpp">
+      <Filter>소스 파일\동적계획법</Filter>
+    </ClCompile>
+    <ClCompile Include="백준 Q5557.cpp">
+      <Filter>소스 파일\동적계획법</Filter>
+    </ClCompile>
+    <ClCompile Include="백준 Q9465.cpp">
+      <Filter>소스 파일\동적계획법</Filter>
+    </ClCompile>
+    <ClCompile Include="백준 Q10164.cpp">
+      <Filter>소스 파일\동적계획법</Filter>
+    </ClCompile>
+    <ClCompile Include="백준 Q11048.cpp">
+      <Filter>소스 파일\동적계획법</Filter>
+    </ClCompile>
+    <ClCompile Include="백준 Q11055.cpp">
+      <Filter>소스 파일\동적계획법</Filter>
+    </ClCompile>
+    <ClCompile Include="백준 Q1028.cpp">
+      <Filter>소스 파일\동적계획법</Filter>
+    </ClCompile>
+    <ClCompile Include="백준 Q1572.cpp">
+      <Filter>소스 파일\탐색</Filter>
+    </ClCompile>
+    <ClCompile Include="showarray.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="백준 Q13537.cpp">
+      <Filter>소스 파일\탐색</Filter>
+    </ClCompile>
+    <ClCompile Include="Segment_Tree.cpp">
+      <Filter>소스 파일\기본 알고리즘 종류</Filter>
+    </ClCompile>
+    <ClCompile Include="array.cpp">
+      <Filter>소스 파일\자료구조</Filter>
+    </ClCompile>
+    <ClCompile Include="stack.cpp">
+      <Filter>소스 파일\자료구조</Filter>
+    </ClCompile>
+    <ClCompile Include="deque.cpp">
+      <Filter>소스 파일\자료구조</Filter>
+    </ClCompile>
+    <ClCompile Include="queue.cpp">
+      <Filter>소스 파일\자료구조</Filter>
+    </ClCompile>
+    <ClCompile Include="graph.cpp">
+      <Filter>소스 파일\자료구조</Filter>
+    </ClCompile>
+    <ClCompile Include="heap.cpp">
+      <Filter>소스 파일\자료구조</Filter>
+    </ClCompile>
+    <ClCompile Include="hash_table.cpp">
+      <Filter>소스 파일\자료구조</Filter>
+    </ClCompile>
+    <ClCompile Include="BST%28binary search tree%29.cpp">
+      <Filter>소스 파일\자료구조</Filter>
+    </ClCompile>
+    <ClCompile Include="LinkedList.cpp">
+      <Filter>소스 파일\자료구조</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="header\Divide and Conquer(분할정복).h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="header\Dynamic Programming(동적계획법).h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="header\Graph(그래프).h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="header\Greedy(그리디).h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="header\init.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="header\Search(탐색).h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="showarray.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Segment_Tree.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="ArrayList.h">
+      <Filter>헤더 파일\자료구조</Filter>
+    </ClInclude>
+    <ClInclude Include="stack.h">
+      <Filter>헤더 파일\자료구조</Filter>
+    </ClInclude>
+    <ClInclude Include="tree.h">
+      <Filter>헤더 파일\자료구조</Filter>
+    </ClInclude>
+    <ClInclude Include="heap.h">
+      <Filter>헤더 파일\자료구조</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="문제번호정리\그리디.txt">
+      <Filter>문제번호정리</Filter>
+    </Text>
+    <Text Include="문제번호정리\동적계획법.txt">
+      <Filter>문제번호정리</Filter>
+    </Text>
+    <Text Include="문제번호정리\탐색.txt">
+      <Filter>문제번호정리</Filter>
+    </Text>
+    <Text Include="..\..\참고사이트.txt" />
+  </ItemGroup>
+</Project>

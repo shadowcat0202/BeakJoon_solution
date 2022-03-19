@@ -1,0 +1,4 @@
+﻿  Q1726.cpp
+D:\mystudy\C++\BackJoon\Q1726\Q1726\Q1726.cpp(55): warning C4715: 'Change': 모든 제어 경로에서 값을 반환하지는 않습니다.
+D:\mystudy\C++\BackJoon\Q1726\Q1726\Q1726.cpp(120): warning C4715: 'BFS': 모든 제어 경로에서 값을 반환하지는 않습니다.
+  Q1726.vcxproj -> D:\mystudy\C++\BackJoon\Q1726\Debug\Q1726.exe

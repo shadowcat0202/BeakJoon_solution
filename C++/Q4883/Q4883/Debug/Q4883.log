@@ -1,0 +1,4 @@
+﻿  Q4883.cpp
+D:\mystudy\C++\BackJoon\Q4883\Q4883\Q4883.cpp(10): warning C4101: 'temp2' :참조되지 않은 지역 변수입니다.
+D:\mystudy\C++\BackJoon\Q4883\Q4883\Q4883.cpp(10): warning C4101: 'temp' :참조되지 않은 지역 변수입니다.
+  Q4883.vcxproj -> D:\mystudy\C++\BackJoon\Q4883\Debug\Q4883.exe
