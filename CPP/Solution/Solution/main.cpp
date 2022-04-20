@@ -9,7 +9,8 @@ void init() {
 }
 void stub() {
 	test t;
-	t.sayhi();
+	t.setHp(1200);
+	t.getHp();
 
 		
 }
