@@ -1,5 +1,11 @@
+<<<<<<< HEAD
 *.pyc
 *.class
 *.exe
 *.c
 *.bin
+=======
+*.class
+*.obj
+out/
+>>>>>>> f5722a00dca6985b8614f0f0b2642b1ea548c63f

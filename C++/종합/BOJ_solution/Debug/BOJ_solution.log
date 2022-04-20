@@ -1,0 +1,20 @@
+﻿  Q1197.cpp
+D:\mystudy\BeakJoon\C++\종합\BOJ_solution\탐색.h(27): warning C4091: 'typedef ': 변수를 선언하지 않으면 'Q1197::edge' 왼쪽은 무시됩니다.
+D:\mystudy\BeakJoon\C++\종합\BOJ_solution\Q1197.cpp(79,21): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+D:\mystudy\BeakJoon\C++\종합\BOJ_solution\Q1197.cpp(90,21): warning C4273: 'Q1197::start': dll 연결이 일치하지 않습니다.
+D:\mystudy\BeakJoon\C++\종합\BOJ_solution\탐색.h(45,17): message : 'start'의 이전 정의를 참조하십시오.
+D:\mystudy\BeakJoon\C++\종합\BOJ_solution\Q1197.cpp(91,9): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 '__int64'입니다.
+D:\mystudy\BeakJoon\C++\종합\BOJ_solution\Q1197.cpp(91,9): message : 서식 문자열에서 '%lld'을(를) 사용하는 것이 좋습니다.
+D:\mystudy\BeakJoon\C++\종합\BOJ_solution\Q1197.cpp(91,9): message : 서식 문자열에서 '%I64d'을(를) 사용하는 것이 좋습니다.
+  Q2573.cpp
+D:\mystudy\BeakJoon\C++\종합\BOJ_solution\탐색.h(27): warning C4091: 'typedef ': 변수를 선언하지 않으면 'Q1197::edge' 왼쪽은 무시됩니다.
+D:\mystudy\BeakJoon\C++\종합\BOJ_solution\Q2573.cpp(102,21): warning C4273: 'Q2573::start': dll 연결이 일치하지 않습니다.
+D:\mystudy\BeakJoon\C++\종합\BOJ_solution\탐색.h(73,16): message : 'start'의 이전 정의를 참조하십시오.
+  Q2583.cpp
+D:\mystudy\BeakJoon\C++\종합\BOJ_solution\탐색.h(27): warning C4091: 'typedef ': 변수를 선언하지 않으면 'Q1197::edge' 왼쪽은 무시됩니다.
+D:\mystudy\BeakJoon\C++\종합\BOJ_solution\Q2583.cpp(82,20): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+D:\mystudy\BeakJoon\C++\종합\BOJ_solution\Q2583.cpp(87,21): warning C4273: 'Q2583::start': dll 연결이 일치하지 않습니다.
+D:\mystudy\BeakJoon\C++\종합\BOJ_solution\탐색.h(91,16): message : 'start'의 이전 정의를 참조하십시오.
+  코드를 생성하고 있습니다...
+     D:\mystudy\BeakJoon\C++\종합\Debug\BOJ_solution.lib 라이브러리 및 D:\mystudy\BeakJoon\C++\종합\Debug\BOJ_solution.exp 개체를 생성하고 있습니다.
+  BOJ_solution.vcxproj -> D:\mystudy\BeakJoon\C++\종합\Debug\BOJ_solution.dll

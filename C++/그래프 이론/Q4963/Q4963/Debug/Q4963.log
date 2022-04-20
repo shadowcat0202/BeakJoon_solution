@@ -1,0 +1,3 @@
+﻿  Q4963.cpp
+D:\mystudy\BeakJoon\C++\그래프 이론\Q4963\Q4963\Q4963.cpp(84,25): warning C4477: 'scanf_s' : 서식 문자열 '%d'에 'int *' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'bool *'입니다.
+  Q4963.vcxproj -> D:\mystudy\BeakJoon\C++\그래프 이론\Q4963\Debug\Q4963.exe

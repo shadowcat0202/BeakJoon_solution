@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <ProjectGuid>{A3C1DEFD-9741-4C05-990E-889A5A8625AF}</ProjectGuid>
+    <RootNamespace>문제정리</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Dynamic Programming(동적계획법)\백준 Q10164.cpp" />
+    <ClCompile Include="..\Dynamic Programming(동적계획법)\백준 Q11048.cpp" />
+    <ClCompile Include="..\Dynamic Programming(동적계획법)\백준 Q11055.cpp" />
+    <ClCompile Include="..\Dynamic Programming(동적계획법)\백준 Q11057.cpp" />
+    <ClCompile Include="..\Dynamic Programming(동적계획법)\백준 Q11060.cpp" />
+    <ClCompile Include="..\Dynamic Programming(동적계획법)\백준 Q11727.cpp" />
+    <ClCompile Include="..\Dynamic Programming(동적계획법)\백준 Q1309.cpp" />
+    <ClCompile Include="..\Dynamic Programming(동적계획법)\백준 Q1495.cpp" />
+    <ClCompile Include="..\Dynamic Programming(동적계획법)\백준 Q5557.cpp" />
+    <ClCompile Include="..\Dynamic Programming(동적계획법)\백준 Q9465.cpp" />
+    <ClCompile Include="..\Greedy(그리디)\백준 Q1041.cpp" />
+    <ClCompile Include="..\Greedy(그리디)\백준 Q10775.cpp" />
+    <ClCompile Include="..\Greedy(그리디)\백준 Q11000.cpp" />
+    <ClCompile Include="..\Greedy(그리디)\백준 Q11047.cpp" />
+    <ClCompile Include="..\Greedy(그리디)\백준 Q11399.cpp" />
+    <ClCompile Include="..\Greedy(그리디)\백준 Q1202.cpp" />
+    <ClCompile Include="..\Greedy(그리디)\백준 Q1700.cpp" />
+    <ClCompile Include="..\Greedy(그리디)\백준 Q1715.cpp" />
+    <ClCompile Include="..\Greedy(그리디)\백준 Q1744.cpp" />
+    <ClCompile Include="..\Greedy(그리디)\백준 Q1946.cpp" />
+    <ClCompile Include="..\Greedy(그리디)\백준 Q2810.cpp" />
+    <ClCompile Include="..\Greedy(그리디)\백준 Q2812.cpp" />
+    <ClCompile Include="..\Greedy(그리디)\백준 Q2839.cpp" />
+    <ClCompile Include="..\Greedy(그리디)\백준 Q3109.cpp" />
+    <ClCompile Include="..\Greedy(그리디)\백준 Q9576.cpp" />
+    <ClCompile Include="..\Search(탐색)\백준 Q1197.cpp" />
+    <ClCompile Include="..\Search(탐색)\백준 Q13023.cpp" />
+    <ClCompile Include="..\Search(탐색)\백준 Q17472.cpp" />
+    <ClCompile Include="..\Search(탐색)\백준 Q2206.cpp" />
+    <ClCompile Include="..\Search(탐색)\백준 Q2573.cpp" />
+    <ClCompile Include="..\Search(탐색)\백준 Q2583.cpp" />
+    <ClCompile Include="selftest1\test1.cpp" />
+    <ClCompile Include="selftest2\test2.cpp" />
+    <ClCompile Include="문제정리.cpp" />
+    <ClCompile Include="io_init.cpp" />
+    <ClCompile Include="init.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\Dynamic Programming(동적계획법)\input\Q10164.txt" />
+    <Text Include="..\Dynamic Programming(동적계획법)\input\Q11048.txt" />
+    <Text Include="..\Dynamic Programming(동적계획법)\input\Q11055.txt" />
+    <Text Include="..\Dynamic Programming(동적계획법)\input\Q11057.txt" />
+    <Text Include="..\Dynamic Programming(동적계획법)\input\Q11060.txt" />
+    <Text Include="..\Dynamic Programming(동적계획법)\input\Q11727.txt" />
+    <Text Include="..\Dynamic Programming(동적계획법)\input\Q1309.txt" />
+    <Text Include="..\Dynamic Programming(동적계획법)\input\Q1495.txt" />
+    <Text Include="..\Dynamic Programming(동적계획법)\input\Q5557.txt" />
+    <Text Include="..\Dynamic Programming(동적계획법)\input\Q9465.txt" />
+    <Text Include="..\Greedy(그리디)\input\Q1041.txt" />
+    <Text Include="..\Greedy(그리디)\input\Q10775.txt" />
+    <Text Include="..\Greedy(그리디)\input\Q11000.txt" />
+    <Text Include="..\Greedy(그리디)\input\Q11047.txt" />
+    <Text Include="..\Greedy(그리디)\input\Q11399.txt" />
+    <Text Include="..\Greedy(그리디)\input\Q1202.txt" />
+    <Text Include="..\Greedy(그리디)\input\Q1700.txt" />
+    <Text Include="..\Greedy(그리디)\input\Q1715.txt" />
+    <Text Include="..\Greedy(그리디)\input\Q1744.txt" />
+    <Text Include="..\Greedy(그리디)\input\Q1946.txt" />
+    <Text Include="..\Greedy(그리디)\input\Q2810.txt" />
+    <Text Include="..\Greedy(그리디)\input\Q2812.txt" />
+    <Text Include="..\Greedy(그리디)\input\Q2839.txt" />
+    <Text Include="..\Greedy(그리디)\input\Q3109.txt" />
+    <Text Include="..\Greedy(그리디)\input\Q9576.txt" />
+    <Text Include="..\Search(탐색)\input\Q1197.txt" />
+    <Text Include="..\Search(탐색)\input\Q13023.txt" />
+    <Text Include="..\Search(탐색)\input\Q17472.txt" />
+    <Text Include="..\Search(탐색)\input\Q2206.txt" />
+    <Text Include="..\Search(탐색)\input\Q2573.txt" />
+    <Text Include="..\Search(탐색)\input\Q2583.txt" />
+    <Text Include="selftest1\input\Qtest1.txt" />
+    <Text Include="selftest2\input\Qtest2.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="header\Divide and Conquer(분할정복).h" />
+    <ClInclude Include="header\Dynamic Programming(동적계획법).h" />
+    <ClInclude Include="header\Graph(그래프).h" />
+    <ClInclude Include="header\Greedy(그리디).h" />
+    <ClInclude Include="header\Search(탐색).h" />
+    <ClInclude Include="header\selftest1.h" />
+    <ClInclude Include="header\selftest2.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
